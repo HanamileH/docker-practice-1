@@ -5,6 +5,7 @@ from datetime import datetime
 
 # ==== Конфигурация ==== #
 DEBUG = True
+HOST='0.0.0.0'
 PORT = 5000
 DATABASE_PATH = 'weater_reposts.db'
 # ==== Конфигурация ==== #
@@ -186,4 +187,4 @@ def get_recent_reports():
 
 # Запускаем приложение
 if __name__ == '__main__':
-    app.run(debug=DEBUG, port=PORT)
+    app.run(debug=DEBUG, host=HOST, port=PORT)
