@@ -35,7 +35,8 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/HanamileH/docker-practice-1
-cd weather-reports
+cd ivanov
+cd app
 ```
 
 2. Установите зависимости:
